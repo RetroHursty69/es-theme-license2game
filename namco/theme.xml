@@ -1,0 +1,30 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
+
+	<view name="system, basic, detailed, video">
+		<image name="logo">
+			<path>./_inc/system.png</path>
+		</image>
+	</view>
+
+	<view name="system">
+                <image name="boxart" extra="true">
+                   <pos>0.0 0.0</pos>
+                   <maxSize>1 1</maxSize>
+                   <zIndex>41</zIndex>
+                   <path>./_inc/boxart.png</path>
+                </image>	
+    </view> 
+    
+    <view name="basic">
+    </view>   
+    
+    <view name="detailed"> 
+	</view>                         
+
+    <view name="video">
+    </view>                                           
+
+    
+</theme>

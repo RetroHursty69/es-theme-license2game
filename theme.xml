@@ -1,0 +1,223 @@
+<!--
+theme name:     Greenilicious
+version         1.0
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>4</formatVersion>
+
+<feature supported="carousel">
+   <view name="system">
+      <carousel name="systemcarousel">
+        <type>vertical</type>
+        <pos>-0.38 0</pos>
+        <size>1 1</size>
+        <logoScale>1.1</logoScale>
+        <logoSize>0.3 0.17</logoSize>
+        <color>00000000</color>
+        <maxLogoCount>5</maxLogoCount>  
+      </carousel>
+
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/images/background.png</path>
+      </image>
+
+      <text name="systemInfo">
+         <pos>-0.155 0.765</pos>
+         <backgroundColor>00000000</backgroundColor>
+         <color>000000</color>
+         <fontPath>./_inc/fonts/LicensePlate.ttf</fontPath>
+	 <fontSize>0.025</fontSize>
+      </text>
+   </view>
+</feature>
+
+   <view name="system,basic,detailed,video">
+      <helpsystem name="help">
+         <pos>1.3 0.94</pos>      
+         <textColor>777777</textColor>
+         <iconColor>77777750</iconColor>
+      </helpsystem>
+   </view>
+
+   <view name="basic,detailed,video">
+      <textlist name="gamelist">
+         <pos>0.44 0.005</pos>
+         <size>0.085 0.875</size>
+         <selectorColor>1c1c1c00</selectorColor>
+         <selectedColor>ff0000</selectedColor>
+         <primaryColor>190707</primaryColor>
+         <secondaryColor>ffffff</secondaryColor>
+         <fontPath>./_inc/fonts/LicensePlate.ttf</fontPath>
+         <fontSize>0.029</fontSize>
+         <forceUppercase>1</forceUppercase>
+         <scrollSound></scrollSound>
+         <alignment>left</alignment>
+      </textlist>
+   </view>
+
+   <view name="basic">
+      <image name="logo">
+         <pos>0.377 0.575</pos>
+         <maxSize>0.23 0.23</maxSize>
+      </image>
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/images/backgroundbasic.png</path>
+      </image>
+      <textlist name="gamelist">
+         <pos>0.008 0.058</pos>
+         <size>0.21 0.89</size>
+         <alignment>left</alignment>
+      </textlist>
+   </view>
+
+   <view name="video">
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/images/backgroundvideo.png</path>
+      </image>
+      <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_playcount, md_lastplayed">
+         <pos>1 1</pos>
+      </text>
+      <text name="md_lbl_rating,md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount,md_lbl_players,md_developer, md_publisher, md_genre, md_playcount, md_lastplayed,md_description,md_players,md_releasedate">
+         <color>190707</color>
+         <fontPath>./_inc/fonts/LicensePlate.ttf</fontPath>
+         <fontSize>0.04</fontSize>
+      </text>
+      <text name="md_lbl_rating">
+         <pos>0.83 0.19</pos>
+         <size>0.0625 0.085</size>
+      </text>
+      <rating name="md_rating">
+         <pos>0.83 0.283</pos>
+         <size>0.06 0.04</size>
+         <filledPath>./_inc/images/star_filled.png</filledPath>
+         <unfilledPath>./_inc/images/star_empty.png</unfilledPath>
+      </rating>
+      <text name="md_lbl_players">
+         <pos>0.7 0.19</pos>
+         <size>0.0625 0.085</size>
+      </text>
+      <text name="md_players">
+         <pos>0.7 0.26</pos>
+         <size>0.0626 0.085</size>
+         <color>ff0000</color>
+      </text>
+      <text name="md_lbl_genre">
+         <pos>0.7 0.32</pos>
+         <size>0.0625 0.085</size>
+      </text>
+      <text name="md_genre">
+         <pos>0.7 0.345</pos>
+         <size>0.2626 0.185</size>
+         <color>ff0000</color>
+      </text>            
+      <text name="md_description">
+         <pos>0.276 0.55</pos>
+         <size>0.7 0.192</size>
+         <color>190707</color>
+         <fontSize>0.025</fontSize>
+      </text>
+      <textlist name="gamelist">
+         <pos>0.008 0.248</pos>
+         <size>0.21 0.69</size>
+         <alignment>left</alignment>
+      </textlist>
+   </view>
+
+   <view name="detailed">
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/images/backgrounddetail.png</path>
+      </image>
+      <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_playcount, md_lastplayed">
+         <pos>1 1</pos>
+      </text>
+      <text name="md_lbl_rating,md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount,md_lbl_players,md_developer, md_publisher, md_genre, md_playcount, md_lastplayed,md_description,md_players,md_releasedate">
+         <color>190707</color>
+         <fontPath>./_inc/fonts/LicensePlate.ttf</fontPath>
+         <fontSize>0.04</fontSize>
+      </text>
+      <text name="md_lbl_rating">
+         <pos>0.83 0.1</pos>
+         <size>0.0625 0.085</size>
+      </text>
+      <rating name="md_rating">
+         <pos>0.83 0.193</pos>
+         <size>0.06 0.04</size>
+         <filledPath>./_inc/images/star_filled.png</filledPath>
+         <unfilledPath>./_inc/images/star_empty.png</unfilledPath>
+      </rating>
+      <text name="md_lbl_players">
+         <pos>0.7 0.1</pos>
+         <size>0.0625 0.085</size>
+      </text>
+      <text name="md_players">
+         <pos>0.7 0.17</pos>
+         <size>0.0626 0.085</size>
+         <color>ff0000</color>
+      </text>
+      <text name="md_lbl_genre">
+         <pos>0.7 0.23</pos>
+         <size>0.0625 0.085</size>
+      </text>
+      <text name="md_genre">
+         <pos>0.7 0.255</pos>
+         <size>0.2626 0.185</size>
+         <color>ff0000</color>
+      </text>            
+      <text name="md_description">
+         <pos>0.276 0.55</pos>
+         <size>0.7 0.192</size>
+         <color>190707</color>
+         <fontSize>0.025</fontSize>
+      </text>
+      <textlist name="gamelist">
+         <pos>0.008 0.248</pos>
+         <size>0.21 0.69</size>
+         <alignment>left</alignment>
+      </textlist>
+   </view>
+
+   <view name="detailed">
+      <image name="logo">
+         <pos>0.11 0.065</pos>
+         <maxSize>0.2 0.2</maxSize>
+      </image>
+      <image name="md_image">
+         <pos>0.47 0.29</pos>
+         <maxSize>0.38 0.4</maxSize>
+      </image>
+     
+   </view>
+
+   <view name="video">
+      <image name="logo">
+         <pos>0.11 0.065</pos>
+         <maxSize>0.2 0.2</maxSize>
+      </image>
+      <video name="md_video">
+         <pos>0.48 0.31</pos>
+         <maxSize>0.4 0.45</maxSize>
+         <delay>1.0</delay>
+         <showSnapshotNoVideo>true</showSnapshotNoVideo>
+         <showSnapshotDelay>true</showSnapshotDelay>
+      </video>
+      <image name="md_marquee">
+         <pos>0.82 0.138</pos>
+         <maxSize>0.17 0.17</maxSize>
+      </image>
+   </view>
+   
+</theme>
